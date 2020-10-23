@@ -1,0 +1,27 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "nodejs, express, mongodb app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvirakibul/natours-api.git"
+  },
+  "author": "md rakibul hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanvirakibul/natours-api/issues"
+  },
+  "homepage": "https://github.com/tanvirakibul/natours-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
